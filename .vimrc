@@ -12,6 +12,8 @@ endif
 call plug#begin('~/.vim/bundle')
   Plug 'ErichDonGubler/vim-sublime-monokai'
   Plug 'vim-airline/vim-airline'
+  Plug 'tpope/vim-fugitive'
+  Plug 'airblade/vim-gitgutter'
   Plug 'mattn/emmet-vim'
   Plug 'chr4/nginx.vim'
 call plug#end()
