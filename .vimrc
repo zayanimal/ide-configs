@@ -1,6 +1,9 @@
 filetype plugin indent on
+
 set encoding=utf-8
 set nocompatible
+set tabstop=4
+set shiftwidth=4
 set number
 syntax enable
 
@@ -15,6 +18,11 @@ call plug#begin('~/.vim/bundle')
   Plug 'tpope/vim-fugitive'
   Plug 'airblade/vim-gitgutter'
   Plug 'mattn/emmet-vim'
+  Plug 'preservim/nerdtree'
+  Plug 'mtdl9/vim-log-highlighting'
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
+  Plug 'jelera/vim-javascript-syntax'
   Plug 'chr4/nginx.vim'
 call plug#end()
 
