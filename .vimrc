@@ -2,9 +2,13 @@ filetype plugin indent on
 
 set encoding=utf-8
 set nocompatible
+# отступы
 set tabstop=4
 set shiftwidth=4
+# нумерация строк
 set number
+# автообновление
+set autoread
 syntax enable
 
 if empty(glob('~/.vim/autoload/plug.vim')) 
