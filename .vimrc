@@ -2,14 +2,14 @@ filetype plugin indent on
 
 set encoding=utf-8
 set nocompatible
-# отступы
 set tabstop=4
 set shiftwidth=4
-# нумерация строк
 set number
-# автообновление
+set ignorecase
 set autoread
 syntax enable
+
+let NERDTreeShowHidden=1
 
 if empty(glob('~/.vim/autoload/plug.vim')) 
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
