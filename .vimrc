@@ -28,6 +28,7 @@ call plug#begin('~/.vim/bundle')
   Plug 'mxw/vim-jsx'
   Plug 'jelera/vim-javascript-syntax'
   Plug 'chr4/nginx.vim'
+  Plug 'martinda/Jenkinsfile-vim-syntax'
 call plug#end()
 
 colorscheme sublimemonokai
