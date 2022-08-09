@@ -29,6 +29,7 @@ call plug#begin('~/.vim/bundle')
   Plug 'jelera/vim-javascript-syntax'
   Plug 'chr4/nginx.vim'
   Plug 'martinda/Jenkinsfile-vim-syntax'
+  Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
 colorscheme sublimemonokai
